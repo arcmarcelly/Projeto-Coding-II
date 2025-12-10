@@ -1,0 +1,98 @@
+/* --- Fundo escurecido --- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* --- Janela do modal --- */
+.modal {
+  background: #0e3a42;
+  width: 760px;
+  padding: 35px;
+  border-radius: 18px;
+  position: relative;
+  font-family: 'Urbanist', sans-serif;
+  color: white;
+}
+
+/* Botão X */
+.fechar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Títulos */
+.modal h2 {
+  margin-top: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.subtitulo {
+  margin-top: -10px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* Layout em duas colunas */
+.linha {
+  display: flex;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+/* Campos */
+.campo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.campo label {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.campo input {
+  background: #f5f5f5;
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Botão registrar */
+.btn-enviar {
+  margin-top: 35px;
+  background: #02272c;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-enviar:hover {
+  opacity: 0.8;
+}

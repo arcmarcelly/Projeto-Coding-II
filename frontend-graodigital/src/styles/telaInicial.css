@@ -1,0 +1,160 @@
+body {
+  font-family: "Urbanist", sans-serif !important;
+  background: #072E33;
+  margin: 0;
+}
+
+/* --- CONTAINER GERAL --- */
+.container-geral {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+/* --- HEADER --- */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0E3A42;
+  padding: 18px 40px;
+  color: white;
+}
+
+.logo {
+  height: 42px;
+}
+
+.bemvindo {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn-sair {
+  background: #B30000;
+  color: white;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* --- CARDS SUPERIORES --- */
+.cards {
+  margin: 40px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background: #0D4349;
+  padding: 22px;
+  border-radius: 16px;
+  color: white;
+  flex: 1;
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.numero {
+  font-size: 20px;
+  margin-top: 7px;
+  font-weight: 600;
+}
+
+.verde {
+  color: #1EC94B;
+}
+.laranja {
+  color: #FF7A00;
+}
+
+/* --- ABAS --- */
+.abas {
+  width: 80%;
+  margin: 0 auto 20px auto;
+  display: flex;
+  gap: 20px;
+}
+
+.aba {
+  padding: 10px 18px;
+  background: #0D4349;
+  color: #cfcfcf;
+  border-radius: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.aba.ativa {
+  background: #072E33;
+  border: 2px solid #1EC94B;
+  color: white;
+}
+
+/* --- TABELA --- */
+.bloco-tabela {
+  width: 80%;
+  margin: 0 auto;
+  background: #0D4349;
+  padding: 25px;
+  border-radius: 16px;
+  color: white;
+}
+
+.topo-tabela {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-registrar {
+  background: #02272C;
+  padding: 10px 22px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tabela {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  color: white;
+  font-size: 16px;
+}
+
+.tabela th {
+  text-align: left;
+  padding-bottom: 12px;
+  opacity: 0.7;
+}
+
+.tabela td {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Status */
+.status {
+  padding: 6px 12px;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+.status.verde {
+  background: #1EC94B;
+}
+
+.status.laranja {
+  background: #FF7A00;
+}
