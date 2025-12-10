@@ -55,6 +55,7 @@ O projeto foi desenvolvido com foco em **facilidade de uso**, **rastreabilidade*
 
 ## Estrutura do Projeto
 
+
 - `TelaInicial.jsx` – Tela principal do sistema.  
 - `ModalAgricultor.jsx` – Modal para cadastro de agricultores.  
 - `AgricultorApi.js` – Comunicação frontend/backend via Axios.  
